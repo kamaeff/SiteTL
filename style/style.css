@@ -13,16 +13,8 @@
     --White: #ffffff;
 }
 
-@font-face {
-    font-family: 'Barlow';
-    src: url("/fonts/Barlow/Barlow-Light.woff") format("woff");
-    font-style: normal;
-    font-weight: 300;
-}
-
 .body{
     max-width: 1408px;
     margin-left: auto;
     margin-right: auto;
 }
-

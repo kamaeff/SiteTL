@@ -16,7 +16,8 @@
 }
 
 .header__nav-item{
-    font-family: 'Barlow';
+    font-family: "DIN";
+    font-weight: 300;
     font-size: 14px;
     line-height: 24px;
 
@@ -36,7 +37,7 @@
 }
 
 .header__booking{
-    font-family: 'Barlow';
+    font-family: 'DIN';
     font-size: 14px;
     line-height: 28px;
 
