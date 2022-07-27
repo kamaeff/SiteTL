@@ -1,0 +1,28 @@
+@import url('fonts.css');
+@import url('header.css');
+@import url('main.css');
+@import url('footer.css');
+
+
+:root{
+    --MainColor: #000000;
+    --BgBtnColor: #5B6460;
+    --FirstBgColor: #5B6460;
+    --SecondBgColor: #E9ECE0;
+    --Secondcolor: #333333;
+    --White: #ffffff;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url("/fonts/Barlow/Barlow-Light.woff") format("woff");
+    font-style: normal;
+    font-weight: 300;
+}
+
+.body{
+    max-width: 1408px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
