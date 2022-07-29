@@ -9,8 +9,9 @@
 
 .header__nav{
     display: flex;
-
-    margin-left: 242px;
+    align-items: center;
+    margin-left: 232px;
+    width: 541px;
     gap: 36px;
     list-style: none;
 }
@@ -21,6 +22,7 @@
     font-size: 14px;
     line-height: 24px;
 
+    align-items: center;
     text-decoration: none;
     text-transform: uppercase;
 
@@ -32,19 +34,18 @@
 }
 
 .header__flags{
-    margin-left: 25px;
     margin-top: 5px;
 }
 
 .header__booking{
+    width: 79px;
     font-family: 'DIN';
     font-size: 14px;
     line-height: 28px;
 
     padding: 16px 60px;
-    margin-left: 177px;
 
-    letter-spacing: 1px;
+    margin-left: 153px;
     text-transform: uppercase;
     text-decoration: none;
     background-color: var(--BgBtnColor);

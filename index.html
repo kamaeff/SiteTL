@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Glass Huts</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="#">
 </head>
 <body>
 
@@ -12,15 +13,17 @@
         <header>
             <div class="header">
                 <a href="#"><img class="header__logo" width="70" height="65" src="img/logo.png" alt="mainlogo"></a>
-                <nav class="header__nav">
-                    <li><a class="header__nav-item" href ="#">Home</a></li>
-                    <li><a class="header__nav-item" href ="#">The Hut</a></li>
-                    <li><a class="header__nav-item" href ="#">The Area</a></li>
-                    <li><a class="header__nav-item" href ="#">Booking</a></li>
-                    <li><a class="header__nav-item" href ="#">About Us</a></li>
-                    <li><a class="header__nav-item" href ="#">Faq</a></li> 
+                <nav>
+                    <ul class="header__nav">
+                        <li><a class="header__nav-item" href ="#">Home</a></li>
+                        <li><a class="header__nav-item" href ="#">The Hut</a></li>
+                        <li><a class="header__nav-item" href ="#">The Area</a></li>
+                        <li><a class="header__nav-item" href ="#">Booking</a></li>
+                        <li><a class="header__nav-item" href ="#">About Us</a></li>
+                        <li><a class="header__nav-item" href ="#">Faq</a></li>
+                    </ul>    
                 </nav>
-                <div class="header__flags" href="#">
+                <div class="header__flags">
                     <a href="#">
                         <img width="25" height="25" src="img/denmark.png" alt="denmarkflag">
                     </a>
@@ -32,9 +35,58 @@
         <main>
             
             <section class="topside">
+                <h1 class="visually-hidden">Главная</h1>
+
+                <div class="topside__text">
+                    <h2 class="topside__text--text">Find peace in the Forest</h2>
+                    <div class="topside__text--subtext">Come and stay in out hut hotel near Mariager Fjord in Denmark</div>
+                </div>
                 
+                <div class="topside__swiper">
+                    <div class="topside__swiper-wrapper">
+
+                        <div class="topside__swiper-slide">
+                            <img src="img/mainhouseimg.png" alt="mainimg" width="1408" height="700">
+                        </div>
+
+                    
+                        <div class="topside__swiper-button-prev">
+                            <img src="img/backcopy.png" alt="arrowleft">
+                        </div>
+                        <div class="topside__swiper-button-next">
+                            <img src="img/backcopy2.png" alt="arrowrignt">
+                        </div>
+                    
+                        <div class="topside__swiper-scrollbar">
+                            
+                        </div>
+                    </div>
+                </div>
+                  
+                <div class="topside__booking">
+                    <a href="#" class="topside__booking-btn">Book Now</a>
+                    <img src="img/price.png" alt="price" width="120" height="100">
+
+                </div>
             </section>
 
+            <section class="cabins">
+                <div class="cabins__text">
+                    <h2 class="cabins__text-text">The Cabins</h2>
+                    <div class="cabins__text-subtext">Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen. They all have an open space with a double bed, a double sofa bed, kitchen, separate toilet and an outdoor shower. On the roof, surrounded by treetops, there is a terrace, which is about nine meters above ground. The cottages are built around tall, old trees that go through the entire cottage from floor to ceiling.</div>
+                    <a href="#" class="cabins__text-link">Read More</a>
+                </div>
+                <img src="img/thebed.png" alt="cabins" width="693" height="438" class="cabins__img">
+            </section>
+            
+            <section class="photos">
+                <img src="img/house1.png" width="432" height="387" alt="house1">
+                <img src="img/house2.png" width="432" height="387" alt="house2">
+                <div class="photos__third">
+                    <img src="img/house3.png" width="432" height="387" alt="house3">
+                    <img class="photos__third-player" src="img/player.png" width="411" height="40" alt="player">
+                </div>
+            </section>
         </main>
     
         <footer>

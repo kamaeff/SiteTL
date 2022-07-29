@@ -1,0 +1,167 @@
+.topside{
+    max-width: 1408px;
+    position: relative;
+    display: flex;
+}
+
+.topside__text{
+    position: absolute;
+    z-index: 1;
+    top: 58px;
+    right: 58px;
+}
+
+.topside__text--text{
+    font-family: 'Open Sans Light';
+    font-size: 70px;
+    line-height: 72px;
+    text-align: right;
+    
+    color: var(--White);
+}
+
+.topside__text--subtext{
+    width: 400px;
+    font-family: 'Mulish Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    text-align: center;
+    padding-left: 326px;
+
+    color: #FFFFFF;
+}
+
+.topside__swiper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topside__swiper-wrapper{
+
+}
+
+.topside__swiper-slide{
+    z-index: -1;
+
+}
+
+.topside__swiper-button-prev{
+    position: absolute;
+    cursor: pointer;
+    top: 601px;
+    left: 646px;
+}
+
+.topside__swiper-button-next{
+    cursor: pointer;
+    position: absolute;
+    top: 601px;
+    left: 725px;
+}
+
+.topside__swiper-scrollbar{
+    
+}
+
+.topside__booking{
+    position: absolute;
+    top:637px;
+    right: 879px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topside__booking-btn{
+    font-family: 'DIN';
+    font-size: 14px;
+    line-height: 28px;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    padding: 36px 81px;
+    background: var(--BgBtnColor);
+
+    color: var(--White);
+}
+
+.topside__booking-btn:hover{
+    background: var(--MainColor);
+}
+
+.cabins{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 147px;
+}
+
+.cabins__img{
+    margin-left: 105px;
+}
+
+.cabins__text{
+    padding-top: 100px;
+}
+
+.cabins__text-text{
+    font-family: 'Open Sans Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+
+    color: var(--BgBtnColor);
+}
+
+.cabins__text-subtext{
+    width: 465px;
+    margin-bottom: 17px;
+    font-family: 'Open Sans Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: var(--MainColor);
+}
+
+.cabins__text-link{
+    font-family: 'Open Sans Bold';
+    font-size: 16px;
+    line-height: 30px;
+    text-decoration: none;
+
+    color: var(--BgBtnColor);
+}
+
+.cabins__text-link:hover{
+    border-bottom: 1.5px solid var(--BgBtnColor);
+    padding-bottom: 2px;
+}
+
+.photos{
+    display: flex;
+    gap: 24px;
+    margin-left: 32px;
+    margin-top: 152px;
+}
+
+.photos__third{
+    z-index: -1;
+    position: relative;
+}
+
+.photos__third-player
+{
+    z-index: 1;
+    position: absolute;
+    left: 9px;
+    top: 337px;
+}

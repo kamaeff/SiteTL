@@ -11,10 +11,19 @@
     --SecondBgColor: #E9ECE0;
     --Secondcolor: #333333;
     --White: #ffffff;
+
+    
 }
 
 .body{
+
     max-width: 1408px;
     margin-left: auto;
     margin-right: auto;
 }
+
+.visually-hidden {
+    position: fixed;
+    display: none;
+    transform: scale(0);
+  }
