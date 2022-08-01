@@ -1,0 +1,73 @@
+.leftside {
+    display: grid;
+    margin-top: 100px;
+    margin-left: 146px;
+}
+.leftside__title {
+    font-family: 'Open Sans Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: var(--White);
+}
+.leftside__text {
+    width: 418px;
+    margin-top: 30px;
+
+    font-family: 'Open Sans Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: var(--White);
+
+    opacity: 0.7;
+}
+.leftside__copirate {
+    margin-top: 70px;
+    font-family: 'Open Sans Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+
+    color: #EFEFEF;
+
+    opacity: 0.7;
+}
+
+.rightside {
+    margin-top: 100px;
+    margin-left: 207px;
+}
+
+.rightside__links_nav {
+    display: flex;
+    gap: 33px;
+    list-style: none;
+}
+
+.rightside__links_nav-item {
+    font-family: 'DIN';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    transition-duration: 0.5s;
+
+    color: var(--White);
+}
+
+.rightside__banks {
+    display: flex;
+    align-items: center;
+    margin-left: 221px;
+    margin-top: 50px;
+    gap: 40px;
+}

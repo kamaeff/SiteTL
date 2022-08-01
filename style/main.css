@@ -233,6 +233,7 @@
     display: grid;
     align-items: center;
     justify-content: center;
+    margin-top: -.26em;
     background-color: var(--BgBtnColor);
 }
 
@@ -323,4 +324,89 @@
     background: #5B6460;
     color: #FFFFFF;  
     transform: translateY(-10px);  
+}
+
+.info {
+    display: flex;
+}
+
+.info__leftside {
+    margin-top: 150px;
+    margin-left: 148px;
+}
+
+.info__leftside-title {
+    font-family: 'Open Sans Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+
+    color: var(--BgBtnColor);
+}
+
+.info__leftside-city {
+    margin-top: 48px;
+    font-family: 'Open Sans Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: var(--MainColor);
+}
+
+.info__leftside-contacts {
+    width: 167px;
+    margin-top: 20px;
+    font-family: 'Open Sans Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: var(--MainColor);
+}
+
+.info__leftside_social {
+    margin-top: 50px;
+    display: flex;
+    gap: 43px;
+}
+
+.info__leftside_social-img{
+    transition-duration: 0.5s;
+}
+
+.info__leftside_social-img:hover{
+    scale: 1.1;
+}
+
+.info__rightside {
+    height: 288px;
+    margin-top: 215px;
+    margin-left: 345px;   
+}
+
+.info__rightside_booking {
+    display: flex;
+    align-items: center;
+    margin-top: -.36em;
+}
+
+.info__rightside_booking-btn {
+    font-family: 'DIN';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+
+    padding: 36px 87px;
+
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: var(--BgBtnColor);
+
+    color: var(--White)
 }

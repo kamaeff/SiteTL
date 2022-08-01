@@ -2,6 +2,7 @@
 @import url('header.css');
 @import url('main.css');
 @import url('footer.css');
+@import url('forms.css');
 
 
 :root{
@@ -15,8 +16,15 @@
     
 }
 
-.body{
+footer{
+    width: 1408px;
+    height: 477px;
+    display: flex;
+    margin-top: 133px;
+    background: var(--BgBtnColor);
+}
 
+.body{
     max-width: 1408px;
     margin-left: auto;
     margin-right: auto;
@@ -27,3 +35,7 @@
     display: none;
     transform: scale(0);
   }
+
+.li_animation:hover{
+    scale: 1.1;
+}
