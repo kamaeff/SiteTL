@@ -13,6 +13,8 @@
 
 .topside__text--text{
     font-family: 'Open Sans Light';
+    font-style: normal;
+    font-weight: 300;
     font-size: 70px;
     line-height: 72px;
     text-align: right;
@@ -243,7 +245,6 @@
     font-style: normal;
     font-weight: 300;
     font-size: 40px;
-    line-height: 40px;
     text-align: center;
 
     color: var(--White);
@@ -409,4 +410,8 @@
     background: var(--BgBtnColor);
 
     color: var(--White)
+}
+
+.info__rightside_booking-btn:hover{
+    background: var(--MainColor);
 }

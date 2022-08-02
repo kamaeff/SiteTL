@@ -1,0 +1,147 @@
+
+@media (max-width: 1400px) {
+
+    .body{
+        max-width: 1350px;
+        margin-left: 0px;
+    }
+
+    .header__logo{
+        width: 60px;
+        height: 55px;
+    }
+    
+    .header__nav{
+        margin-left: 190px;
+    }
+
+    .header__nav-item{
+        font-size: 10px;
+    }
+
+    .header__booking{
+        font-size: 10px;
+        line-height: 20px;
+    } 
+
+    .topside__swiper{
+        margin-left: 0px;
+    }
+
+    .topside__swiper-slide--img{
+        width: 1345px;
+        height: 645px;
+    }
+
+    .topside__booking{
+        top:597px;
+    }
+
+    .topside__booking-btn{
+        font-size: 10px;
+        padding: 26px 71px;
+    }
+
+    .topside__booking-img{
+        width: 100px;
+        height: 80px;
+    }
+
+    .more__secondimg{
+        right: 25px;
+    }
+
+    .cabins{
+        margin-top: 100px;
+    }
+
+    .cabins__text-text{
+        font-size: 30px;
+    }
+
+    .cabins__text-subtext{
+        width: 365px;
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .cabins__text-link{
+        font-size: 10px;
+    }
+
+    .cabins__text-link:hover{
+        border-bottom: 1px solid var(--BgBtnColor);
+        padding-bottom: 2px;
+    }
+
+    .cabins__img{
+        margin-left: 135px;
+    }
+
+    .photos{
+        gap: 6px;
+    }
+
+    .forest{
+    }
+
+    .forest__map-mainmap{
+        width: 674px;
+        height: 600px;
+    }
+
+    .forest__info{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .forest__info-text{
+        font-size: 30px; 
+    }
+
+    .forest__info-subtext{
+        width: 365px;
+        font-size: 10px;
+        line-height: 24px;
+    }
+
+    .forest__info-link{
+        font-size: 10px;
+    }
+
+    .forest__info-link:hover{
+        border-bottom: 1px solid #5B6460;
+        padding-bottom: 2px;
+    }
+
+    .facilities__title{
+        margin-top: 80px;
+        font-size: 30px;
+    }
+
+    .facilities__container{
+        grid-template-columns: 123px 123px 123px 123px;
+    }
+
+    .facilities__container-item--img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .facilities__container-item--name{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .more{
+        max-width: 1373px;
+    }
+
+    .more__secondimg{
+        width: 660px;
+    }
+
+    .footer{
+        max-width: 1345px;
+    }
+}

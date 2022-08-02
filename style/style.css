@@ -3,6 +3,7 @@
 @import url('main.css');
 @import url('footer.css');
 @import url('forms.css');
+@import url('adaptive.css');
 
 
 :root{
@@ -16,7 +17,7 @@
     
 }
 
-footer{
+.footer{
     width: 1408px;
     height: 477px;
     display: flex;
