@@ -4,6 +4,7 @@
 @import url('footer.css');
 @import url('forms.css');
 @import url('adaptive.css');
+@import url('normalize.css');
 
 
 :root{
@@ -40,3 +41,4 @@
 .li_animation:hover{
     scale: 1.1;
 }
+

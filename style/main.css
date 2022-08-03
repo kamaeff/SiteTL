@@ -6,7 +6,7 @@
 
 .topside__text{
     position: absolute;
-    z-index: 1;
+    z-index: 3;
     top: 58px;
     right: 58px;
 }
@@ -48,7 +48,7 @@
 }
 
 .topside__swiper-slide{
-    z-index: -1;
+    z-index: 0;
 
 }
 
