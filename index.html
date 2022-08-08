@@ -11,14 +11,11 @@
 <body>
 
     <div class="body">
-        <header>
+        <!--<header>
             <div class="header">
                 <a href="#">
                     <img class="header__logo" width="70" height="65" src="img/logo.png" alt="mainlogo">
                 </a>
-                <div class="header__burger">
-                    <span></span>
-                </div>
                 <nav class="header__menu">
                     <ul class="header__nav ">
                         <li><a class="header__nav-item" href ="#">Home</a></li>
@@ -35,6 +32,31 @@
                     </a>
                 </div>
                 <a href="#" class="header__booking">Book Now</a>
+            </div>
+        </header>-->
+
+        <header>
+            <div class="wrapper">
+                <div class="logo">
+                    <img src="img/logo.png" alt="logo" width="70" height="65">
+                </div>
+                <input type="checkbox" id="check-menu">
+                <label for="check-menu">
+                    <div class="burger-line first"></div>
+                    <div class="burger-line second"></div>
+                    <div class="burger-line third"></div>
+                    <div class="burger-line fourth"></div>
+                </label>
+               
+                <nav class="main-menu">
+                    <a href="#"><li class="main-menu--item">Home</li></a>
+                    <a href="#"><li class="main-menu--item">The Hut</li></a>
+                    <a href="#"><li class="main-menu--item">The Area</li></a>
+                    <a href="#"><li class="main-menu--item">Booking</li></a>
+                    <a href="#"><li class="main-menu--item">About Us</li></a>
+                    <a href="#"><li class="main-menu--item">Faq</li></a>
+                </nav>
+                <a href="#" class="wrapper__btn-item">Book Now</a>
             </div>
         </header>
     
@@ -192,12 +214,15 @@
             <div class="footer">
                 <section class="leftside">
                     <div class="leftside__title">Newsletter</div>
+                    <form action="" class="leftside__email_form" id="form">
+                        <input type="email" placeholder="Email Adress" class="leftside__email_form-input">
+                        <button class="leftside__email_form-btn"><img src="img/backcopy2.png" alt="rigntarrow" width="33" height="15"></button>
+                    </form>
                     <div class="leftside__text">Sign up to our newsletter for special things and receive 10% off your next order.</div>
                     <div class="leftside__copirate">© 2021 The Glass Huts</div>
                 </section>
     
                 <section class="rightside">
-    
                     <nav>
                         <ul class="rightside__links_nav">
                             <li class="li_animation"><a href="#" class="rightside__links_nav-item">Terms and conditions</a></li>
@@ -215,13 +240,6 @@
                 </section>
             </div>
         </footer>
-
-        <section class="email">
-            <form action="" class="email__form" id="form">
-                <input type="email" placeholder="Email Adress" class="email__form-input">
-                <button class="email__form-btn"><img src="img/backcopy2.png" alt="rigntarrow" width="33" height="15"></button>
-            </form>
-        </section>
     
     </div>
     

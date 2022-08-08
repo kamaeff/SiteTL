@@ -12,6 +12,33 @@
 
     color: var(--White);
 }
+
+.leftside__email_form {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--White);
+}
+.leftside__email_form-input {
+    outline: 0 !important;
+    padding-right: 202px;
+    font-family: 'Open Sans Light';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    
+    background: var(--BgBtnColor);
+    box-shadow: none;
+    border: 1px solid var(--BgBtnColor);
+    color: var(--White);
+    transition-duration: 1s;
+}
+
+.leftside__email_form-btn {
+    cursor: pointer;
+    border: 1px solid var(--BgBtnColor);
+    background-color: var(--BgBtnColor);
+}
+
 .leftside__text {
     width: 418px;
     margin-top: 30px;
@@ -71,3 +98,5 @@
     margin-top: 50px;
     gap: 40px;
 }
+
+
