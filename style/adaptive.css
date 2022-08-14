@@ -1,45 +1,28 @@
 
-@media (max-width: 1400px) {
-
-    .body{
-        max-width: 1350px;
-        margin-left: 0px;
-    }
+@media (max-width: 1000px) {
 
     .header__logo{
         width: 60px;
         height: 55px;
     }
-    
-    .header__nav{
-        margin-left: 190px;
-    }
-
-    .header__nav-item{
-        font-size: 10px;
-    }
-
-    .header__booking{
-        font-size: 10px;
-        line-height: 20px;
-    } 
 
     .topside__swiper{
         margin-left: 0px;
     }
 
     .topside__swiper-slide--img{
-        width: 1345px;
-        height: 645px;
+        width: 980px;
+        height: 545px;
     }
 
     .topside__booking{
-        top:597px;
+        left: 300px;
+        top: 500px;
     }
 
     .topside__booking-btn{
-        font-size: 10px;
-        padding: 26px 71px;
+        padding: 26px 60px;
+        white-space: nowrap;
     }
 
     .topside__booking-img{

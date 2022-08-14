@@ -2,62 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Glass Huts</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
 </head>
 <body>
-
     <div class="body">
-        <!--<header>
-            <div class="header">
-                <a href="#">
-                    <img class="header__logo" width="70" height="65" src="img/logo.png" alt="mainlogo">
-                </a>
-                <nav class="header__menu">
-                    <ul class="header__nav ">
-                        <li><a class="header__nav-item" href ="#">Home</a></li>
-                        <li><a class="header__nav-item" href ="#">The Hut</a></li>
-                        <li><a class="header__nav-item" href ="#">The Area</a></li>
-                        <li><a class="header__nav-item" href ="#">Booking</a></li>
-                        <li><a class="header__nav-item" href ="#">About Us</a></li>
-                        <li><a class="header__nav-item" href ="#">Faq</a></li>
-                    </ul>    
-                </nav>
-                <div class="header__flags">
-                    <a href="#">
-                        <img width="25" height="25" src="img/denmark.png" alt="denmarkflag">
-                    </a>
-                </div>
-                <a href="#" class="header__booking">Book Now</a>
-            </div>
-        </header>-->
-
-        <header>
-            <div class="wrapper">
-                <div class="logo">
-                    <img src="img/logo.png" alt="logo" width="70" height="65">
-                </div>
-                <input type="checkbox" id="check-menu">
-                <label for="check-menu">
-                    <div class="burger-line first"></div>
-                    <div class="burger-line second"></div>
-                    <div class="burger-line third"></div>
-                    <div class="burger-line fourth"></div>
-                </label>
-               
-                <nav class="main-menu">
-                    <a href="#"><li class="main-menu--item">Home</li></a>
-                    <a href="#"><li class="main-menu--item">The Hut</li></a>
-                    <a href="#"><li class="main-menu--item">The Area</li></a>
-                    <a href="#"><li class="main-menu--item">Booking</li></a>
-                    <a href="#"><li class="main-menu--item">About Us</li></a>
-                    <a href="#"><li class="main-menu--item">Faq</li></a>
-                </nav>
-                <a href="#" class="wrapper__btn-item">Book Now</a>
-            </div>
+        <header class="header">
+            <nav class="header__nav">
+                <a href="#" class="header__logo"><img width="70" height="65" src="img/logo.png" alt="logo"></a>
+                <div class="header__openMenu"><i class="fa fa-bars"></i></div>
+                <ul class="header__mainMenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">The Hut</a></li>
+                    <li><a href="#">The Area</a></li>
+                    <li><a href="#">Booking</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Faq</a></li>
+                    <div class="closeMenu"><i class="fa fa-times"></i></div>
+                    <li>
+                        <a href="#" class="flag"><img src="img/denmark.png" alt="denmarkflag"></a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#" class="header__booking">Book Now</a>
         </header>
     
         <main>
@@ -243,6 +214,7 @@
     
     </div>
     
-
+    <script src="script/app.js"></script>
 </body>
+
 </html>
