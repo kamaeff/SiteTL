@@ -10,13 +10,13 @@
   font-size: 16px;
   line-height: 30px;
 
-  color: var(--White);
+  color: var(--white);
 }
 
 .leftside__email_form {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid var(--White);
+  border-bottom: 1px solid var(--white);
 }
 .leftside__email_form-input {
   outline: 0 !important;
@@ -26,17 +26,17 @@
   font-weight: 300;
   font-size: 16px;
 
-  background: var(--BgBtnColor);
+  background: var(--bgBtnColor);
   box-shadow: none;
-  border: 1px solid var(--BgBtnColor);
-  color: var(--White);
+  border: 1px solid var(--bgBtnColor);
+  color: var(--white);
   transition-duration: 1s;
 }
 
 .leftside__email_form-btn {
   cursor: pointer;
-  border: 1px solid var(--BgBtnColor);
-  background-color: var(--BgBtnColor);
+  border: 1px solid var(--bgBtnColor);
+  background-color: var(--bgBtnColor);
 }
 
 .leftside__text {
@@ -49,7 +49,7 @@
   font-size: 16px;
   line-height: 30px;
 
-  color: var(--White);
+  color: var(--white);
 
   opacity: 0.7;
 }
@@ -88,7 +88,7 @@
   text-decoration: none;
   transition-duration: 0.5s;
 
-  color: var(--White);
+  color: var(--white);
 }
 
 .rightside__banks {

@@ -29,7 +29,7 @@
   font-weight: 300;
   font-size: 14px;
   line-height: 24px;
-  color: #000000;
+  color: var(--maincolor);
 
   transition: 0.2s ease 0s;
 }
@@ -45,7 +45,7 @@
   left: 70px;
   display: none;
   cursor: pointer;
-  color: #000;
+  color: var(--mainColor);
   transition: 0.2s ease 0s;
 }
 
@@ -70,12 +70,12 @@
   text-transform: uppercase;
   white-space: nowrap;
 
-  background-color: var(--BgBtnColor);
-  color: var(--White);
+  background-color: var(--bgBtnColor);
+  color: var(--white);
 }
 
 .header__booking:hover {
-  background-color: var(--MainColor);
+  background-color: var(--mainColor);
 }
 
 @media (max-width: 1000px) {
@@ -85,7 +85,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
   }
 
   .header__logo {
@@ -104,7 +103,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: var(--White);
+    background: var(--white);
     transition: top 1s ease 0s;
     display: none;
   }
@@ -121,7 +120,7 @@
   }
 
   .header__mainMenu li a {
-    color: var(--MainColor);
+    color: var(--mainColor);
     font-size: 14px;
   }
 

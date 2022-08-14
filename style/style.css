@@ -6,12 +6,12 @@
 @import url("adaptive.css");
 
 :root {
-  --MainColor: #000000;
-  --BgBtnColor: #5b6460;
-  --FirstBgColor: #5b6460;
-  --SecondBgColor: #e9ece0;
-  --Secondcolor: #333333;
-  --White: #ffffff;
+  --mainColor: #000000;
+  --bgBtnColor: #5b6460;
+  --firstBgColor: #5b6460;
+  --secondBgColor: #e9ece0;
+  --secondcolor: #333333;
+  --white: #ffffff;
 }
 
 .footer {
@@ -19,7 +19,7 @@
   height: 477px;
   display: flex;
   margin-top: 133px;
-  background: var(--BgBtnColor);
+  background: var(--bgBtnColor);
 }
 
 .body {

@@ -24,7 +24,7 @@
 
 .topside__text--subtext {
   width: 400px;
-  font-family: "Mulish Light";
+  font-family: "mulish Light";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -84,13 +84,13 @@
   text-transform: uppercase;
   text-decoration: none;
 
-  background: var(--BgBtnColor);
+  background: var(--bgBtnColor);
 
-  color: var(--White);
+  color: var(--white);
 }
 
 .topside__booking-btn:hover {
-  background: var(--MainColor);
+  background: var(--mainColor);
 }
 
 .cabins {
@@ -126,7 +126,7 @@
   font-size: 16px;
   line-height: 30px;
 
-  color: var(--MainColor);
+  color: var(--mainColor);
 }
 
 .cabins__text-link {
@@ -135,11 +135,11 @@
   line-height: 30px;
   text-decoration: none;
 
-  color: var(--BgBtnColor);
+  color: var(--bgBtnColor);
 }
 
 .cabins__text-link:hover {
-  border-bottom: 1.5px solid var(--BgBtnColor);
+  border-bottom: 1.5px solid var(--bgBtnColor);
   padding-bottom: 2px;
 }
 
@@ -228,7 +228,7 @@
   align-items: center;
   justify-content: center;
   margin-top: -0.26em;
-  background-color: var(--BgBtnColor);
+  background-color: var(--bgBtnColor);
 }
 
 .facilities__title {
@@ -239,7 +239,7 @@
   font-size: 40px;
   text-align: center;
 
-  color: var(--White);
+  color: var(--white);
 }
 
 .facilities__container {
@@ -267,7 +267,7 @@
   line-height: 28px;
   text-align: center;
 
-  color: var(--White);
+  color: var(--white);
 }
 
 .more {
@@ -313,7 +313,7 @@
 
 .more__aboutusbtn:hover {
   background: #5b6460;
-  color: #ffffff;
+  color: var(--white);
   transform: translateY(-10px);
 }
 
@@ -333,7 +333,7 @@
   font-size: 40px;
   line-height: 60px;
 
-  color: var(--BgBtnColor);
+  color: var(--bgBtnColor);
 }
 
 .info__leftside-city {
@@ -344,7 +344,7 @@
   font-size: 16px;
   line-height: 30px;
 
-  color: var(--MainColor);
+  color: var(--mainColor);
 }
 
 .info__leftside-contacts {
@@ -356,7 +356,7 @@
   font-size: 16px;
   line-height: 30px;
 
-  color: var(--MainColor);
+  color: var(--mainColor);
 }
 
 .info__leftside_social {
@@ -397,11 +397,11 @@
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  background: var(--BgBtnColor);
+  background: var(--bgBtnColor);
 
-  color: var(--White);
+  color: var(--white);
 }
 
 .info__rightside_booking-btn:hover {
-  background: var(--MainColor);
+  background: var(--mainColor);
 }
