@@ -2,7 +2,6 @@
 @import url("header.css");
 @import url("main.css");
 @import url("footer.css");
-@import url("forms.css");
 @import url("adaptive.css");
 
 :root {
@@ -32,4 +31,16 @@
   position: fixed;
   display: none;
   transform: scale(0);
+}
+
+.swiper-slide {
+  z-index: -1;
+}
+
+.swiper .swiper-button-prev::after,
+.swiper .swiper-button-next::after{
+  color: #ffffff;
+  font-size: 20px;
+  position: relative;
+  margin-top: 300px;
 }

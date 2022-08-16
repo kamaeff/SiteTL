@@ -19,7 +19,7 @@
   line-height: 72px;
   text-align: right;
 
-  color: var(--White);
+  color: var(--white);
 }
 
 .topside__text--subtext {
@@ -33,38 +33,7 @@
   text-align: center;
   padding-left: 326px;
 
-  color: #ffffff;
-}
-
-.topside__swiper {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.topside__swiper-wrapper {
-}
-
-.topside__swiper-slide {
-  z-index: 0;
-}
-
-.topside__swiper-button-prev {
-  position: absolute;
-  cursor: pointer;
-  top: 601px;
-  left: 646px;
-}
-
-.topside__swiper-button-next {
-  cursor: pointer;
-  position: absolute;
-  top: 601px;
-  left: 725px;
-}
-
-.topside__swiper-scrollbar {
+  color: var(--white);
 }
 
 .topside__booking {
@@ -74,6 +43,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 
 .topside__booking-btn {

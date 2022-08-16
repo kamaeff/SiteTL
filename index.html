@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Glass Huts</title>
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="shortcut icon" href="#">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
 </head> 
@@ -41,31 +45,32 @@
                     <div class="topside__text--subtext">Come and stay in out hut hotel near Mariager Fjord in Denmark</div>
                 </div>
                 
-                <div class="topside__swiper">
-                    <div class="topside__swiper-wrapper">
-
-                        <div class="topside__swiper-slide">
-                            <img src="img/mainhouseimg.png" alt="mainimg" width="1408" height="700" class="topside__swiper-slide--img">
-                        </div>
-
-                    
-                        <div class="topside__swiper-button-prev">
-                            <img src="img/backcopy.png" alt="arrowleft" width="33" height="15">
-                        </div>
-                        <div class="topside__swiper-button-next">
-                            <img src="img/backcopy2.png" alt="arrowrignt" width="33" height="15">
-                        </div>
-                    
-                        <div class="topside__swiper-scrollbar">
-                            
+               <!-- Slider main container -->
+                <div class="swiper">
+                    <div class="slide-container">
+                        <div class="slide-btn">
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
                         </div>
                     </div>
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                        <div class="swiper-slide"><img width="1400" height="700" src="img/mainhouseimg.png" alt="slide1"></div>
+                        <div class="swiper-slide"><img width="1400" height="700" src="img/slide2.png" alt="slide2"></div>
+                        <div class="swiper-slide"><img width="1400" height="700" src="img/slide3.png" alt="slide3"></div>
+                    </div>
+
+                    
+                
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
                 </div>
-                  
+  
+
                 <div class="topside__booking">
                     <a href="#" class="topside__booking-btn">Book Now</a>
                     <img src="img/price.png" alt="price" width="120" height="100" class="topside__booking-img">
-
                 </div>
             </section>
 
@@ -218,6 +223,11 @@
     </div>
     
     <script src="script/app.js"></script>
+    <script src="script/slide.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".swiper", {});
+    </script>
 </body>
 
 </html>
