@@ -43,20 +43,21 @@
   color: #ffffff;
   font-size: 20px;
   position: relative;
-  margin-top: 601px;
+  margin-top: 518px;
 }
 
 .swiper .swiper-button-prev::after{
-  left: 600px;
+  left: 624px;
 }
 
 
 .swiper .swiper-button-next::after{
-  right: 600px;
+  right: 626px;
 }
 
 .swiper-scrollbar-vertical{
   background: none;
+  margin-left: 22px;
 }
 
 .back{

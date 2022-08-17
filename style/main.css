@@ -7,7 +7,8 @@
 .topside__text {
   position: absolute;
   z-index: 3;
-  top: 58px;
+  height: 190px;
+  top: 40px;
   right: 58px;
 }
 
@@ -16,8 +17,7 @@
   font-style: normal;
   font-weight: 300;
   font-size: 70px;
-  line-height: 72px;
-  text-align: right;
+
 
   color: var(--white);
 }
@@ -29,7 +29,6 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-
   text-align: center;
   padding-left: 326px;
 
@@ -39,7 +38,7 @@
 .topside__booking {
   position: absolute;
   top: 637px;
-  right: 879px;
+  left: 145px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,7 +46,7 @@
 }
 
 .topside__booking-btn {
-  padding: 36px 81px;
+  padding: 36px 95px;
   font-family: "DIN";
   font-size: 14px;
   line-height: 28px;
