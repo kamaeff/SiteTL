@@ -61,7 +61,7 @@
                         <div class="swiper-slide"><img width="1400" height="700" src="img/slide3.png" alt="slide3"></div>
                     </div>
                     <!-- If we need scrollbar -->
-                    <div class="scroll back swiper-scrollbar-vertical swiper-scrollbar swiper-scrollbar-drag"></div>
+                    <div class="scroll back swiper-scrollbar-vertical swiper-scrollbar"></div>
                 </div>
   
 
@@ -224,12 +224,11 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper(".swiper", {
-        spaceBetween: 10,
-        slidesPerView: 1,
-        // Navigation arrows
-        slideToClickedSlide: true,
+
+        slidesPerView: 1, 
         loop: true,
         centeredSlides: true,
+
         navigation: {
             clickable: true,
             nextEl: ".swiper-button-next",
@@ -238,15 +237,14 @@
 
         // And if we need scrollbar
         scrollbar: {
-            el: ".swiper-scrollbar",
-            verticalClass: 'swiper-scrollbar-vertical',
-            hide: false,
-            dragSize: 'auto',
+            el: ".swiper-scrollbar", 
+            draggable: true,
         },
 
         autoplay: {
             delay: 3000,
         },
+        mousewheel: true,
         });
 
     </script>
