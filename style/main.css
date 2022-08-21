@@ -6,10 +6,11 @@
 
 .topside__text {
   position: absolute;
-  z-index: 3;
   height: 190px;
   top: 40px;
   right: 58px;
+
+  z-index: 3;
 }
 
 .topside__text--text {
@@ -18,19 +19,19 @@
   font-weight: 300;
   font-size: 70px;
 
-
   color: var(--white);
 }
 
 .topside__text--subtext {
   width: 400px;
+  padding-left: 326px;
+
   font-family: "mulish Light";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  padding-left: 326px;
 
   color: var(--white);
 }
@@ -43,23 +44,6 @@
   justify-content: center;
   align-items: center;
   z-index: 1;
-}
-
-.topside__booking-btn {
-  padding: 36px 95px;
-  font-family: "DIN";
-  font-size: 14px;
-  line-height: 28px;
-  text-transform: uppercase;
-  text-decoration: none;
-
-  background: var(--bgBtnColor);
-
-  color: var(--white);
-}
-
-.topside__booking-btn:hover {
-  background: var(--mainColor);
 }
 
 .cabins {
@@ -89,7 +73,8 @@
 .cabins__text-subtext {
   width: 465px;
   margin-bottom: 17px;
-  font-family: "Open Sans Light";
+
+  font-family: "Open Sans Light", sans-serif;;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -99,7 +84,7 @@
 }
 
 .cabins__text-link {
-  font-family: "Open Sans Bold";
+  font-family: "Open Sans Bold", sans-serif;;
   font-size: 16px;
   line-height: 30px;
   text-decoration: none;
@@ -108,8 +93,8 @@
 }
 
 .cabins__text-link:hover {
-  border-bottom: 1.5px solid var(--bgBtnColor);
   padding-bottom: 2px;
+  border-bottom: 1.5px solid var(--bgBtnColor);
 }
 
 .photos {
@@ -120,15 +105,15 @@
 }
 
 .photos__third {
-  z-index: -1;
   position: relative;
+  z-index: -1;
 }
 
 .photos__third-player {
-  z-index: 1;
   position: absolute;
   left: 9px;
   top: 337px;
+  z-index: 1;
 }
 
 .forest {
@@ -152,7 +137,7 @@
 }
 
 .forest__info-text {
-  font-family: "Open Sans Regular";
+  font-family: "Open Sans Regular", sans-serif;;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -163,7 +148,8 @@
 
 .forest__info-subtext {
   width: 465px;
-  font-family: "Open Sans Light";
+
+  font-family: "Open Sans Light", sans-serif;;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -175,7 +161,8 @@
 
 .forest__info-link {
   width: 80px;
-  font-family: "Open Sans Light";
+
+  font-family: "Open Sans Light", sans-serif;;
   font-style: italic;
   font-weight: 400;
   font-size: 16px;
@@ -193,16 +180,19 @@
 
 .facilities {
   height: 971px;
+
   display: grid;
   align-items: center;
   justify-content: center;
   margin-top: -0.26em;
+
   background-color: var(--bgBtnColor);
 }
 
 .facilities__title {
-  font-family: "Open Sans Light";
   margin-top: 130px;
+
+  font-family: "Open Sans Light", sans-serif;;
   font-style: normal;
   font-weight: 300;
   font-size: 40px;
@@ -229,7 +219,8 @@
 
 .facilities__container-item--name {
   margin-top: 20px;
-  font-family: "Open Sans Light";
+
+  font-family: "Open Sans Light", sans-serif;;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -261,7 +252,7 @@
 }
 
 .more__aboutusbtn {
-  font-family: "DIN";
+  font-family: "DIN", sans-serif;;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -296,7 +287,7 @@
 }
 
 .info__leftside-title {
-  font-family: "Open Sans Regular";
+  font-family: "Open Sans Regular", sans-serif;;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -307,7 +298,8 @@
 
 .info__leftside-city {
   margin-top: 48px;
-  font-family: "Open Sans Light";
+
+  font-family: "Open Sans Light", sans-serif;;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -319,7 +311,8 @@
 .info__leftside-contacts {
   width: 167px;
   margin-top: 20px;
-  font-family: "Open Sans Light";
+
+  font-family: "Open Sans Light", sans-serif;;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -355,13 +348,13 @@
 }
 
 .info__rightside_booking-btn {
-  font-family: "DIN";
+  padding: 36px 87px;
+  
+  font-family: "DIN", sans-serif;;
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
   line-height: 28px;
-
-  padding: 36px 87px;
 
   text-align: center;
   text-decoration: none;

@@ -5,46 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Glass Huts</title>
     <link rel="stylesheet" href="style/normalize.css">
-    <link rel="stylesheet" href="style/style.css">
-    <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />
-    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style/swiper.css">
+    <link rel="stylesheet" href="style/style.css">   
+    <link rel="shortcut icon" href="#">
+    
 </head> 
 <body>
-    <div class="body">
+    <div class="body-container">
         <header class="header">
             <nav class="header__nav">
                 <a href="#" class="header__logo"><img width="70" height="65" src="img/logo.png" alt="logo"></a>
-                <div class="header__openMenu"><i class="fa fa-bars"></i></div>
-                <ul class="header__mainMenu">
+                <div class="header__mobile-menu"><i class="fa fa-bars"></i></div>
+                <ul class="header__main-menu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">The Hut</a></li>
                     <li><a href="#">The Area</a></li>
                     <li><a href="#">Booking</a></li>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Faq</a></li>
-                    <li class="closeMenu"><i class="fa fa-times"></i></li>
+                    <li class="header__close-menu"><i class="fa fa-times"></i></li>
                     <li>
-                        <div class="dropdown">
-                            <div class="dropbtn"><img src="img/denmark.png" alt=""></div>
-                            <div class="dropdown-content">
+                        <div class="language-container">
+                            <a href="#" class="language-btn"><img src="img/denmark.png" alt=""></a>
+                            <div class="language-content">
                               <a href="#"><img src="img/denmark.png" width="25" height="17" alt="denmark">Den</a>
-                              <a href="#"><img src="img/rus.png" width="25" height="17" alt="Rus">Ru</a>
+                              <a href="#" name="rus"><img src="img/rus.png" width="25" height="17" alt="Rus">Ru</a>
                             </div>
                           </div>
                     </li>
                 </ul>
+                <a href="#" class="header__booking">Book Now</a>
             </nav>
-            <a href="#" class="header__booking">Book Now</a>
+            
         </header>
     
         <main>
             
             <section class="topside">
-                <h1 class="visually-hidden">Главная</h1>
+                <h1 class="visually-hidden">Main</h1>
 
                 <div class="topside__text">
                     <h2 class="topside__text--text">Find peace in the Forest</h2>
@@ -52,27 +52,24 @@
                 </div>
                 
                <!-- Slider main container -->
-                <div class="swiper">
-                    <div class="slide-container">
-                        <div class="slide-btn">
-                            <div class="swiper-button-prev"></div>
-                            <div class="swiper-button-next"></div>
-                        </div>
+                <div class="swiper-container swiper">
+                    <div class="slide_container-btns">
+                        <button class="swiper__btn-prev swiper-button-prev"></button>
+                        <button class="swiper__btn-next swiper-button-next"></button>
                     </div>
                     <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
-                    <!-- Slides -->
-                        <div class="swiper-slide"><img width="1400" height="700" src="img/mainhouseimg.png" alt="slide1"></div>
-                        <div class="swiper-slide"><img width="1400" height="700" src="img/slide2.png" alt="slide2"></div>
-                        <div class="swiper-slide"><img width="1400" height="700" src="img/slide3.png" alt="slide3"></div>
-                    </div>
+                    <div class="wrapper-container swiper-wrapper">
+                        <div class="slide-position swiper-slide"><img width="1400" height="700" src="img/mainhouseimg.png" alt="slide1"></div>
+                        <div class="slide-position swiper-slide"><img width="1400" height="700" src="img/slide2.png" alt="slide2"></div>
+                        <div class="slide-position swiper-slide"><img width="1400" height="700" src="img/slide3.png" alt="slide3"></div>
+                    </div>                    
                     <!-- If we need scrollbar -->
-                    <div class="scroll back swiper-scrollbar-vertical swiper-scrollbar"></div>
+                    <div class="scroll scroll-background swiper-scrollbar"></div>
                 </div>
-  
+                
 
-                <div class="topside__booking">
-                    <a href="#" class="topside__booking-btn">Book Now</a>
+                <div class="booking__container topside__booking">
+                    <a href="#" class="booking__container-btn">Book Now</a>
                     <img src="img/price.png" alt="price" width="120" height="100" class="topside__booking-img">
                 </div>
             </section>
@@ -224,36 +221,10 @@
         </footer>-->
     
     </div>
-    
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="script/app.js"></script>
     <!--<script src="script/slide.js"></script>-->
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    <script>
-        const swiper = new Swiper(".swiper", {
-
-        slidesPerView: 1, 
-        loop: true,
-        centeredSlides: true,
-
-        navigation: {
-            clickable: true,
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-
-        // And if we need scrollbar
-        scrollbar: {
-            el: ".swiper-scrollbar", 
-            draggable: true,
-        },
-
-        autoplay: {
-            delay: 3000,
-        },
-        mousewheel: true,
-        });
-
-    </script>
+    
 </body>
 
 </html>

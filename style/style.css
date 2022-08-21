@@ -1,4 +1,5 @@
 @import url("fonts.css");
+@import url("swiper.css");
 @import url("header.css");
 @import url("main.css");
 @import url("footer.css");
@@ -13,6 +14,13 @@
   --white: #ffffff;
 }
 
+.body-container {
+  max-width: 1408px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
 .footer {
   width: 1408px;
   height: 477px;
@@ -21,54 +29,28 @@
   background: var(--bgBtnColor);
 }
 
-.body {
-  max-width: 1408px;
-  position: relative;
-  overflow: hidden;
-  margin: 0 auto;
-}
-
 .visually-hidden {
   position: fixed;
   display: none;
   transform: scale(0);
 }
 
-.swiper-slide {
-  z-index: -1;
+/*Кнопка бронирования*/
+.booking__container-btn{
+  padding: 36px 95px;
+
+  font-family: "DIN", sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  background: var(--bgBtnColor);
+  color: var(--white);
 }
 
-.swiper .swiper-button-prev::after,
-.swiper .swiper-button-next::after {
-  color: #ffffff;
-  font-size: 20px;
-  position: relative;
-  margin-top: 518px;
-}
-
-.swiper .swiper-button-prev::after {
-  left: 624px;
-}
-
-.swiper .swiper-button-next::after {
-  right: 626px;
-}
-
-.swiper-scrollbar-vertical {
-  background: none;
-  margin-left: 22px;
-}
-
-.back {
-  background: #ffffff;
-  mix-blend-mode: normal;
-  opacity: 0.25;
-}
-
-.swiper .scroll .swiper-scrollbar-drag {
-  background: var(--white);
-  height: 60px;
-  border: 2px solid var(--white);
+.booking__container-btn:hover {
+  background: var(--mainColor);
 }
 
 .dropbtn {
@@ -76,25 +58,25 @@
 }
 
 /* The container <div> - needed to position the dropdown content */
-.dropdown {
+.language-container {
   position: relative;
   z-index: 2;
 }
 
 /* Dropdown Content (Hidden by Default) */
-.dropdown-content {
+.language-content {
   display: none;
   position: absolute;
   width: 50px;
 }
 
-.dropbtn {
+.language-btn {
   display: flex;;
   padding-left: 20px;
   width: 40px;
 }
 
-.dropbtn::after {
+.language-btn::after {
   background: rgba(0, 0, 0, 0)
     url("https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_down_48px-16.png")
     no-repeat scroll center center;
@@ -106,18 +88,18 @@
   width: 16px;
 }
 
-.dropdown-content a:first-child {
+.language-content a:first-child {
   margin-top: 7px;
 }
 
 /* Links inside the dropdown */
-.dropdown-content a {
+.language-content a {
   display: block;
   margin-left: 20px;
   gap: 5px;
 }
 
-.dropdown-content a:hover {
+.language-content a:hover {
   scale: 1.1;
   padding-right: 50px;
   padding-left: 5px;
@@ -125,9 +107,20 @@
   border-radius: 10px;
 }
 
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content{
+.language-container:hover .language-content{
   display: block;
+}
 
+@media (max-width: 1000px) {
+
+  .booking__container-btn{
+    padding: 26px 70px;
+  }
+
+  .booking__container{
+    position: absolute;
+    left: 70px;
+    top: 655px;
+  }
+  
 }

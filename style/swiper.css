@@ -1,0 +1,53 @@
+.slide_container-btns {
+  position: relative;
+  top: 620px;
+  font-size: 20px;
+}
+
+.swiper__btn-prev::after,
+.swiper__btn-next::after {
+  position: absolute;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.swiper__btn-next,
+.swiper__btn-prev{
+  outline: none;
+  border: none;
+  background-image: none; 
+  background-color: transparent;
+}
+
+.swiper__btn-prev {
+  left: 623px;
+}
+
+.swiper__btn-next {
+  right: 635px;
+}
+
+.scroll-background {
+  background: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.35;
+}
+.swiper .scroll .swiper-scrollbar-drag {
+  color: var(--white);
+  background: var(--white);
+  opacity: 1;
+}
+
+.slide-position {
+  z-index: -1;
+}
+
+@media (max-width: 1000px) {
+  .swiper__btn-prev {
+    left: 440px;
+  }
+  .swiper__btn-next {
+    right: 400px;
+  }
+  
+}
