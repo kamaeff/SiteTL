@@ -7,8 +7,9 @@
 }
 
 .main__topside_text {
-  position: absolute;
   height: 190px;
+
+  position: absolute;
   top: 40px;
   right: 58px;
 
@@ -26,6 +27,7 @@
 
 .topside_text-subtitle {
   width: 400px;
+
   padding-left: 326px;
 
   font-family: "mulish Light", arial, sans-serif;
@@ -76,6 +78,7 @@
 
 .cabins__text-subtext {
   width: 465px;
+  
   margin-bottom: 17px;
 
   font-family: "Open Sans Light", arial, sans-serif;
