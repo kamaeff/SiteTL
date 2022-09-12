@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="style/swiper.css">
     <link rel="stylesheet" href="style/style.css">   
     <link rel="shortcut icon" href="#">
     
@@ -18,24 +17,21 @@
             <nav class="header__nav">
                 <a href="#" class="header__logo"><img width="70" height="65" src="img/logo.png" alt="logo"></a>
                 <div class="header__mobile-menu"><i class="fa fa-bars"></i></div>
-                <ul class="header__main-menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">The Hut</a></li>
-                    <li><a href="#">The Area</a></li>
-                    <li><a href="#">Booking</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Faq</a></li>
-                    <li class="header__close-menu"><i class="fa fa-times"></i></li>
-                    <li>
-                        <div class="language-container">
-                            <a href="#" class="language-btn"><img src="img/denmark.png" alt=""></a>
-                            <div class="language-content">
-                              <a href="#"><img src="img/denmark.png" width="25" height="17" alt="denmark">Den</a>
-                              <a href="#" name="rus"><img src="img/rus.png" width="25" height="17" alt="Rus">Ru</a>
-                            </div>
-                          </div>
-                    </li>
-                </ul>
+                <div class="header__nav_container">
+                    <ul class="header__main-menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">The Hut</a></li>
+                        <li><a href="#">The Area</a></li>
+                        <li><a href="#">Booking</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Faq</a></li>
+                        <button class="header__close-menu" type="button"><i class="fa fa-times"></i></button>
+                    </ul>
+                    <div class="languages">
+                        <a href="#" class="den"><img src="img/denmark.png" width="25" height="25" alt="denmark"></a>
+                        <a href="#"><img src="img/rus.png" width="25" height="25" alt="Rus"></a> 
+                    </div>   
+                </div>
                 <a href="#" class="header__booking">Book Now</a>
             </nav>
             
@@ -43,34 +39,40 @@
     
         <main>
             
-            <section class="topside">
+            <section class="main__topside">
                 <h1 class="visually-hidden">Main</h1>
 
-                <div class="topside__text">
-                    <h2 class="topside__text--text">Find peace in the Forest</h2>
-                    <div class="topside__text--subtext">Come and stay in out hut hotel near Mariager Fjord in Denmark</div>
+                <div class="main__topside_text">
+                    <h2 class="topside_text-title">Find peace in the Forest</h2>
+                    <div class="topside_text-subtitle">Come and stay in out hut hotel near Mariager Fjord in Denmark</div>
                 </div>
                 
                <!-- Slider main container -->
                 <div class="swiper-container swiper">
-                    <div class="slide_container-btns">
-                        <button class="swiper__btn-prev swiper-button-prev"></button>
-                        <button class="swiper__btn-next swiper-button-next"></button>
+                    <div class="swiper_container-btns">
+                        <img src="img/backcopy.png" alt=" " class="swiper__btn-prev swiper-button-prev">
+                        <img src="img/backcopy2.png" alt=" " class="swiper__btn-next swiper-button-next">
                     </div>
                     <!-- Additional required wrapper -->
-                    <div class="wrapper-container swiper-wrapper">
-                        <div class="slide-position swiper-slide"><img width="1400" height="700" src="img/mainhouseimg.png" alt="slide1"></div>
-                        <div class="slide-position swiper-slide"><img width="1400" height="700" src="img/slide2.png" alt="slide2"></div>
-                        <div class="slide-position swiper-slide"><img width="1400" height="700" src="img/slide3.png" alt="slide3"></div>
+                    <div class="slider-container swiper-wrapper">
+                        <div class="slide swiper-slide"><img width="1400" height="700" src="img/mainhouseimg.png" alt="slide1"></div>
+                        <div class="slide swiper-slide"><img width="1400" height="700" src="img/slide2.png" alt="slide2"></div>
+                        <div class="slide swiper-slide"><img width="1400" height="700" src="img/slide3.png" alt="slide3"></div>
                     </div>                    
                     <!-- If we need scrollbar -->
-                    <div class="scroll scroll-background swiper-scrollbar"></div>
+                    <div class="scrollbar-pos">
+                        <div class="scroll-background swiper-scrollbar"></div>
+                    </div>                 
                 </div>
                 
 
-                <div class="booking__container topside__booking">
+                <div class="topside__booking booking__container">
                     <a href="#" class="booking__container-btn">Book Now</a>
-                    <img src="img/price.png" alt="price" width="120" height="100" class="topside__booking-img">
+                    <div class="booking__container_price">
+                        <div class="container_price--when">from</div>
+                        <div class="container_price--value">€3.200</div>
+                        <div class="container_price--time">per night</div>
+                    </div>
                 </div>
             </section>
 
@@ -81,7 +83,7 @@
                     <a href="#" class="cabins__text-link">Read More</a>
                 </div>
                 <img src="img/thebed.png" alt="cabins" width="693" height="438" class="cabins__img">
-            <!-- </section>
+           </section>
             
             <section class="photos">
                 <h2 class="visually-hidden">houses photos</h2>
@@ -165,7 +167,7 @@
                 <a href="#" class="more__aboutusbtn">More about us</a>
             </section>
 
-            <section class="info">
+            <!--<section class="info">
                 <div class="info__leftside">
                     <h2 class="info__leftside-title">Stay in touch with us</h2>
                     <div class="info__leftside-city">Vesteborg, Denmark</div>

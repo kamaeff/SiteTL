@@ -4,7 +4,7 @@
   margin-left: 146px;
 }
 .leftside__title {
-  font-family: "Open Sans Regular", sans-serif;;
+  font-family: "Open Sans Regular", arial, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -23,7 +23,7 @@
 
   padding-right: 202px;
 
-  font-family: "Open Sans Light", sans-serif;;
+  font-family: "Open Sans Light", arial, sans-serif;
   font-style: italic;
   font-weight: 300;
   font-size: 16px;
@@ -46,7 +46,7 @@
 
   margin-top: 30px;
 
-  font-family: "Open Sans Light", sans-serif;;
+  font-family: "Open Sans Light", arial, sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -59,7 +59,7 @@
 .leftside__copirate {
   margin-top: 70px;
 
-  font-family: "Open Sans Light", sans-serif;;
+  font-family: "Open Sans Light", arial, sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -78,11 +78,12 @@
 .rightside__links_nav {
   display: flex;
   gap: 33px;
+  
   list-style: none;
 }
 
 .rightside__links_nav-item {
-  font-family: "DIN", sans-serif;;
+  font-family: "DIN", arial, sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -98,7 +99,6 @@
 .rightside__banks {
   display: flex;
   align-items: center;
-
   margin-left: 221px;
   margin-top: 50px;
   gap: 40px;

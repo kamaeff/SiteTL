@@ -1,14 +1,17 @@
-.slide_container-btns {
+.swiper_container-btns {
   position: relative;
-  top: 620px;
+  top: 640px;
+  
   font-size: 20px;
 }
 
 .swiper__btn-prev::after,
 .swiper__btn-next::after {
   position: absolute;
-  color: #ffffff;
+
   font-size: 20px;
+
+  color: #ffffff;
 }
 
 .swiper__btn-next,
@@ -20,25 +23,35 @@
 }
 
 .swiper__btn-prev {
+  width: 33px;
+  height: 15px;
+
   left: 623px;
 }
 
 .swiper__btn-next {
+  width: 33px;
+  height: 15px;
+
   right: 635px;
 }
 
-.scroll-background {
-  background: #ffffff;
-  mix-blend-mode: normal;
-  opacity: 0.35;
-}
-.swiper .scroll .swiper-scrollbar-drag {
-  color: var(--white);
-  background: var(--white);
-  opacity: 1;
+.scrollbar-pos{
+  position: relative;
+  right: 640px;
 }
 
-.slide-position {
+.swiper-scrollbar {
+  transform: rotate(-90deg);
+}
+
+.scroll-background {
+  background: var(--white);
+  opacity: 0.7;
+}
+
+
+.slide{
   z-index: -1;
 }
 

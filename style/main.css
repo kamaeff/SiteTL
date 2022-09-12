@@ -1,10 +1,12 @@
-.topside {
+.main__topside {
   max-width: 1408px;
+
   position: relative;
+
   display: flex;
 }
 
-.topside__text {
+.main__topside_text {
   position: absolute;
   height: 190px;
   top: 40px;
@@ -13,8 +15,8 @@
   z-index: 3;
 }
 
-.topside__text--text {
-  font-family: "Open Sans Light";
+.topside_text-title {
+  font-family: "Open Sans Light", arial, sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 70px;
@@ -22,11 +24,11 @@
   color: var(--white);
 }
 
-.topside__text--subtext {
+.topside_text-subtitle {
   width: 400px;
   padding-left: 326px;
 
-  font-family: "mulish Light";
+  font-family: "mulish Light", arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -40,9 +42,11 @@
   position: absolute;
   top: 637px;
   left: 145px;
+
   display: flex;
   justify-content: center;
   align-items: center;
+
   z-index: 1;
 }
 
@@ -61,7 +65,7 @@
 }
 
 .cabins__text-text {
-  font-family: "Open Sans Regular";
+  font-family: "Open Sans Regular", arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -74,7 +78,7 @@
   width: 465px;
   margin-bottom: 17px;
 
-  font-family: "Open Sans Light", sans-serif;;
+  font-family: "Open Sans Light", arial, sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -84,7 +88,7 @@
 }
 
 .cabins__text-link {
-  font-family: "Open Sans Bold", sans-serif;;
+  font-family: "Open Sans Bold", arial, sans-serif;
   font-size: 16px;
   line-height: 30px;
   text-decoration: none;
@@ -113,12 +117,14 @@
   position: absolute;
   left: 9px;
   top: 337px;
+
   z-index: 1;
 }
 
 .forest {
   display: flex;
   margin-top: 150px;
+
   background: #e9ece0;
 }
 
@@ -137,7 +143,7 @@
 }
 
 .forest__info-text {
-  font-family: "Open Sans Regular", sans-serif;;
+  font-family: "Open Sans Regular", arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -149,7 +155,7 @@
 .forest__info-subtext {
   width: 465px;
 
-  font-family: "Open Sans Light", sans-serif;;
+  font-family: "Open Sans Light", arial, sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -162,7 +168,7 @@
 .forest__info-link {
   width: 80px;
 
-  font-family: "Open Sans Light", sans-serif;;
+  font-family: "Open Sans Light", arial, sans-serif;
   font-style: italic;
   font-weight: 400;
   font-size: 16px;
@@ -192,7 +198,7 @@
 .facilities__title {
   margin-top: 130px;
 
-  font-family: "Open Sans Light", sans-serif;;
+  font-family: "Open Sans Light", arial, sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 40px;
@@ -203,7 +209,7 @@
 
 .facilities__container {
   display: grid;
-  grid-template-columns: 133px 133px 133px 133px;
+  grid-template-columns: repeat(4, 133px);
   align-items: center;
   text-align: center;
   gap: 63px;
@@ -220,7 +226,7 @@
 .facilities__container-item--name {
   margin-top: 20px;
 
-  font-family: "Open Sans Light", sans-serif;;
+  font-family: "Open Sans Light", arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -233,26 +239,32 @@
 .more {
   width: 1408px;
   height: 559px;
-  display: flex;
+
   position: relative;
+
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .more__firstimg {
-  z-index: -1;
-  position: absolute;
+  position: absolute;  
   left: 0px;
+
+  z-index: -1;
 }
 
 .more__secondimg {
   position: absolute;
   right: 0px;
+
   z-index: -1;
 }
 
 .more__aboutusbtn {
-  font-family: "DIN", sans-serif;;
+  padding: 67px 27px;
+
+  font-family: "DIN", arial, sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -263,8 +275,7 @@
 
   background: #e9ece0;
   border-radius: 100px;
-  padding: 67px 27px;
-
+  
   transition: transform 0.5s;
   transition-timing-function: cubic-bezier(0.6, 2, 0.34, -1);
 
@@ -287,7 +298,7 @@
 }
 
 .info__leftside-title {
-  font-family: "Open Sans Regular", sans-serif;;
+  font-family: "Open Sans Regular", arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -299,7 +310,7 @@
 .info__leftside-city {
   margin-top: 48px;
 
-  font-family: "Open Sans Light", sans-serif;;
+  font-family: "Open Sans Light", arial, sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -312,7 +323,7 @@
   width: 167px;
   margin-top: 20px;
 
-  font-family: "Open Sans Light", sans-serif;;
+  font-family: "Open Sans Light", arial, sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -322,8 +333,8 @@
 }
 
 .info__leftside_social {
-  margin-top: 50px;
   display: flex;
+  margin-top: 50px;
   gap: 43px;
 }
 
@@ -337,6 +348,7 @@
 
 .info__rightside {
   height: 288px;
+  
   margin-top: 215px;
   margin-left: 345px;
 }
@@ -350,7 +362,7 @@
 .info__rightside_booking-btn {
   padding: 36px 87px;
   
-  font-family: "DIN", sans-serif;;
+  font-family: "DIN", arial, sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
