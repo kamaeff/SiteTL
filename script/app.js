@@ -14,11 +14,6 @@ function close() {
   mainMenu.style.top = "-100%";
 }
 
-menu_items.forEach((item) => {
-  item.addEventListener("click", function () {
-    close();
-  });
-});
 
 const swiper = new Swiper(".swiper-container", {
   spaceBetween: 10,

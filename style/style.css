@@ -58,14 +58,22 @@
   background: var(--mainColor);
 }
 
-.languages{
+.lang-switcher {
+  position: relative;
+
   display: grid;
   margin-left: 40px;
-  margin-top: 6px;
+  margin-top: 16px;
 
-  align-items: center;
 }
 
+.selected{
+  display: block;
+}
+
+.item{
+  display: none;
+}
 
 .booking__container_price {
   width: 120px;

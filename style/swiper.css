@@ -22,6 +22,11 @@
   background-color: transparent;
 }
 
+.swiper__btn-next:hover path,
+.swiper__btn-prev:hover path{
+  fill: var(--white);
+}
+
 .swiper__btn-prev {
   width: 33px;
   height: 15px;
@@ -34,6 +39,8 @@
   height: 15px;
 
   right: 635px;
+
+  transform: rotate(-180deg);
 }
 
 .scrollbar-pos{
