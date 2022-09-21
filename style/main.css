@@ -1,14 +1,12 @@
 .main__topside {
   max-width: 1408px;
-
+  margin-top: -1em;
   position: relative;
 
   display: flex;
 }
 
 .main__topside_text {
-  height: 190px;
-
   position: absolute;
   top: 40px;
   right: 58px;
@@ -18,7 +16,6 @@
 
 .topside_text-title {
   font-family: "Open Sans Light", arial, sans-serif;
-  font-style: normal;
   font-weight: 300;
   font-size: 70px;
 
@@ -31,8 +28,6 @@
   padding-left: 326px;
 
   font-family: "mulish Light", arial, sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
@@ -42,7 +37,7 @@
 
 .topside__booking {
   position: absolute;
-  top: 637px;
+  top: 657px;
   left: 145px;
 
   display: flex;
@@ -51,6 +46,34 @@
 
   z-index: 1;
 }
+
+.booking__container-price {
+  width: 120px;
+  height: 100px;
+  
+  font-family: 'DIN', arial, sans-serif;
+  font-size: 14px;
+
+  color: #333333;
+  background: #E9ECE0;
+}
+
+.container-price--when {
+  margin-left: 29px;
+  margin-top: 25px;
+}
+
+.container-price--value {
+  margin-left: 29px;
+
+  font-weight: 600;
+  font-size: 20px;
+  }
+
+.container-price--time {
+  margin-left: 41px;
+}
+
 
 .cabins {
   display: flex;
@@ -68,7 +91,6 @@
 
 .cabins__text-text {
   font-family: "Open Sans Regular", arial, sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 40px;
@@ -82,7 +104,6 @@
   margin-bottom: 17px;
 
   font-family: "Open Sans Light", arial, sans-serif;
-  font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 30px;
@@ -147,7 +168,6 @@
 
 .forest__info-text {
   font-family: "Open Sans Regular", arial, sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 40px;
@@ -159,7 +179,6 @@
   width: 465px;
 
   font-family: "Open Sans Light", arial, sans-serif;
-  font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 30px;
@@ -230,7 +249,6 @@
   margin-top: 20px;
 
   font-family: "Open Sans Light", arial, sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
@@ -264,11 +282,10 @@
   z-index: -1;
 }
 
-.more__aboutusbtn {
+.more__btn {
   padding: 67px 27px;
 
   font-family: "DIN", arial, sans-serif;
-  font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 22px;
@@ -285,7 +302,7 @@
   color: #333333;
 }
 
-.more__aboutusbtn:hover {
+.more__btn:hover {
   background: #5b6460;
   color: var(--white);
   transform: translateY(-10px);
@@ -302,7 +319,6 @@
 
 .info__leftside-title {
   font-family: "Open Sans Regular", arial, sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 60px;
@@ -314,7 +330,6 @@
   margin-top: 48px;
 
   font-family: "Open Sans Light", arial, sans-serif;
-  font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 30px;
@@ -327,7 +342,6 @@
   margin-top: 20px;
 
   font-family: "Open Sans Light", arial, sans-serif;
-  font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 30px;

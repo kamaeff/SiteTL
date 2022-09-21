@@ -27,27 +27,15 @@
                         <li><a href="#">Faq</a></li>
                         <button class="header__close-menu" type="button"><i class="fa fa-times"></i></button>
                     </ul>
-                    <div class="lang-switcher">
-                        <div class="dropdown open">
-                            <div class="caption">
-                                <div class="flag den">
-                                    <img src="img/denmark.png" width="25" height="25" alt="denmark">
-                                </div>
-                            </div>
+                    <div class="languages">
+                        <div class="languages__list">
+                            <a href="#" class="languages__item languages__item--active">
+                                <img src="img/denmark.png" width="25" height="25" alt="denmark">
+                            </a>
+                            <a href="#" class="languages__item">
+                                <img src="img/rus.png" width="25" height="25" alt="Rus">
+                            </a>
                         </div>
-                        <div class="list">
-                            <div class="item selected">
-                                <div class="flag den">
-                                    <img src="img/denmark.png" width="25" height="25" alt="denmark">
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="flag ru">
-                                    <img src="img/rus.png" width="25" height="25" alt="Rus">
-                                </div>
-                            </div>
-                        </div>
-                    </div>   
                 </div>
                 <a href="#" class="header__booking">Book Now</a>
             </nav>
@@ -55,7 +43,6 @@
         </header>
     
         <main>
-            
             <section class="main__topside">
                 <h1 class="visually-hidden">Main</h1>
 
@@ -68,25 +55,29 @@
                 <div class="swiper-container swiper">
                     <div class="swiper_container-btns">
                         <!--<img src="img/backcopy.png" alt=" " class="swiper__btn-prev swiper-button-prev">-->
-                        <svg width="35" height="17" viewBox="0 0 35 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="swiper__btn-prev swiper-button-prev">
-                            <path d="M33.414 9.18187H1.65302C1.31106 9.18187 1.03353 8.87642 1.03353 8.50006C1.03353 8.12369 1.31106 7.81824 1.65302 7.81824H33.414C33.756 7.81824 34.0335 8.12369 34.0335 8.50006C34.0335 8.87642 33.756 9.18187 33.414 9.18187Z" fill="#DADADA"/>
-                            <path d="M8.87947 16C8.80211 16 8.72475 15.9718 8.66552 15.916L1.08824 8.70203C1.03203 8.64794 1 8.57487 1 8.49835C1 8.42182 1.03203 8.34875 1.08824 8.29467L8.66612 1.08415C8.78398 0.971951 8.97557 0.971951 9.09343 1.08415C9.21128 1.19634 9.21128 1.37874 9.09343 1.49093L1.7295 8.49835L9.09343 15.5086C9.21128 15.6208 9.21128 15.8032 9.09343 15.9154C9.0342 15.9718 8.95683 16 8.87947 16Z" stroke="#DADADA" stroke-width="0.681818"/>
+                        <button>
+                            <svg width="35" height="17" viewBox="0 0 35 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="swiper__btn-prev swiper-button-prev">
+                                <path d="M33.414 9.18187H1.65302C1.31106 9.18187 1.03353 8.87642 1.03353 8.50006C1.03353 8.12369 1.31106 7.81824 1.65302 7.81824H33.414C33.756 7.81824 34.0335 8.12369 34.0335 8.50006C34.0335 8.87642 33.756 9.18187 33.414 9.18187Z" fill="#DADADA"/>
+                                <path d="M8.87947 16C8.80211 16 8.72475 15.9718 8.66552 15.916L1.08824 8.70203C1.03203 8.64794 1 8.57487 1 8.49835C1 8.42182 1.03203 8.34875 1.08824 8.29467L8.66612 1.08415C8.78398 0.971951 8.97557 0.971951 9.09343 1.08415C9.21128 1.19634 9.21128 1.37874 9.09343 1.49093L1.7295 8.49835L9.09343 15.5086C9.21128 15.6208 9.21128 15.8032 9.09343 15.9154C9.0342 15.9718 8.95683 16 8.87947 16Z" stroke="#DADADA" stroke-width="0.681818"/>
                             </svg>
+                        </button>
                             
                        <!--<img src="img/backcopy2.png" alt=" " class="swiper__btn-next swiper-button-next">-->
-                        <svg width="35" height="17" viewBox="0 0 35 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="swiper__btn-next swiper-button-next">
-                            <path d="M33.414 9.18187H1.65302C1.31106 9.18187 1.03353 8.87642 1.03353 8.50006C1.03353 8.12369 1.31106 7.81824 1.65302 7.81824H33.414C33.756 7.81824 34.0335 8.12369 34.0335 8.50006C34.0335 8.87642 33.756 9.18187 33.414 9.18187Z" fill="#DADADA"/>
-                            <path d="M8.87947 16C8.80211 16 8.72475 15.9718 8.66552 15.916L1.08824 8.70203C1.03203 8.64794 1 8.57487 1 8.49835C1 8.42182 1.03203 8.34875 1.08824 8.29467L8.66612 1.08415C8.78398 0.971951 8.97557 0.971951 9.09343 1.08415C9.21128 1.19634 9.21128 1.37874 9.09343 1.49093L1.7295 8.49835L9.09343 15.5086C9.21128 15.6208 9.21128 15.8032 9.09343 15.9154C9.0342 15.9718 8.95683 16 8.87947 16Z" stroke="#DADADA" stroke-width="0.681818"/>
+                        <button>
+                            <svg width="35" height="17" viewBox="0 0 35 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="swiper__btn-next swiper-button-next">
+                                <path d="M33.414 9.18187H1.65302C1.31106 9.18187 1.03353 8.87642 1.03353 8.50006C1.03353 8.12369 1.31106 7.81824 1.65302 7.81824H33.414C33.756 7.81824 34.0335 8.12369 34.0335 8.50006C34.0335 8.87642 33.756 9.18187 33.414 9.18187Z" fill="#DADADA"/>
+                                <path d="M8.87947 16C8.8021 1 16 8.72475 15.9718 8.66552 15.916L1.08824 8.70203C1.03203 8.64794 1 8.57487 1 8.49835C1 8.42182 1.03203 8.34875 1.08824 8.29467L8.66612 1.08415C8.78398 0.971951 8.97557 0.971951 9.09343 1.08415C9.21128 1.19634 9.21128 1.37874 9.09343 1.49093L1.7295 8.49835L9.09343 15.5086C9.21128 15.6208 9.21128 15.8032 9.09343 15.9154C9.0342 15.9718 8.95683 16 8.87947 16Z" stroke="#DADADA" stroke-width="0.681818"/>
                             </svg>
+                        </button>
                     </div>
                     <!-- Additional required wrapper -->
                     <div class="slider-container swiper-wrapper">
-                        <div class="slide swiper-slide"><img width="1400" height="700" src="img/mainhouseimg.png" alt="slide1"></div>
-                        <div class="slide swiper-slide"><img width="1400" height="700" src="img/slide2.png" alt="slide2"></div>
-                        <div class="slide swiper-slide"><img width="1400" height="700" src="img/slide3.png" alt="slide3"></div>
+                        <div class="swiper-slide"><img width="1400" height="700" src="img/mainhouseimg.png" alt="slide1"></div>
+                        <div class="swiper-slide"><img width="1400" height="700" src="img/slide2.png" alt="slide2"></div>
+                        <div class="swiper-slide"><img width="1400" height="700" src="img/slide3.png" alt="slide3"></div>
                     </div>                    
                     <!-- If we need scrollbar -->
-                    <div class="scrollbar-pos">
+                    <div class="scrollbar-pos">                            
                         <div class="scroll-background swiper-scrollbar"></div>
                     </div>                 
                 </div>
@@ -94,10 +85,10 @@
 
                 <div class="topside__booking booking__container">
                     <a href="#" class="booking__container-btn">Book Now</a>
-                    <div class="booking__container_price">
-                        <div class="container_price--when">from</div>
-                        <div class="container_price--value">€3.200</div>
-                        <div class="container_price--time">per night</div>
+                    <div class="booking__container-price">
+                        <div class="container-price--when">from</div>
+                        <div class="container-price--value">€3.200</div>
+                        <div class="container-price--time">per night</div>
                     </div>
                 </div>
             </section>
@@ -190,10 +181,10 @@
                 <h2 class="visually-hidden">More section</h2>
                 <img src="img/firstimg.png" alt="firsthouse" width="839" height="559" class="more__firstimg">
                 <img src="img/secondimg.png" alt="secondhouse" width="704" height="559" class="more__secondimg">
-                <a href="#" class="more__aboutusbtn">More about us</a>
+                <a href="#" class="more__btn">More about us</a>
             </section>
 
-            <!--<section class="info">
+           <section class="info">
                 <div class="info__leftside">
                     <h2 class="info__leftside-title">Stay in touch with us</h2>
                     <div class="info__leftside-city">Vesteborg, Denmark</div>
@@ -246,7 +237,7 @@
                     </div>
                 </section>
             </div>
-        </footer>-->
+        </footer>
     
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>

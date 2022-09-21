@@ -14,11 +14,36 @@ function close() {
   mainMenu.style.top = "-100%";
 }
 
+const langCurrent = document.querySelector('.languages__item--active');
+const languages = document.querySelectorAll('.languages__item');
+
+// Попробуйте её самостоятельно разобрать
+const siblings = el => [].slice.call(el.parentNode.children).filter(child => (child !== el)); // объявляем функцию, которая будет возвращать соседние элементы
+
+languages.forEach(lang => {
+    lang.addEventListener('click', (evt) => {
+        evt.preventDefault();
+        if (lang.classList.contains('languages__item--active')) {
+            siblings(lang).forEach(el => { // для каждого соседнего элемента
+                el.classList.add('languages__item--show') // добавляем класс для показа
+            })
+        } else {
+            lang.classList.add('languages__item--active'); // добавляем класс активности
+            lang.classList.remove('languages__item--show'); // удаляем класс для показа
+
+            siblings(lang).forEach(el => {
+                el.classList.remove('languages__item--active');
+                el.classList.remove('languages__item--show');
+            })
+        }
+
+    });
+
+});
+
 
 const swiper = new Swiper(".swiper-container", {
-  spaceBetween: 10,
   loop: true,
-
 
   //Autoplay
   autoplay: {

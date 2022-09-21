@@ -6,7 +6,6 @@
   justify-content: space-between;
 
   margin-left: 146px;
-  
 }
 
 .header__nav {
@@ -76,6 +75,33 @@
   border: 0;
   background: transparent;
   z-index: 10;
+}
+
+.languages {
+  position: relative;
+
+  margin-left: 30px;
+}
+
+.languages__list {
+  position: absolute;
+  top: 17px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.languages__item {
+  display: none;
+}
+
+.languages__item--active,
+.languages__item--show {
+  display: block;
+}
+
+.languages__item--active{
+  order: 0;
 }
 
 .header__booking {

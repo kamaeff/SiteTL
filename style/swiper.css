@@ -46,6 +46,7 @@
 .scrollbar-pos{
   position: relative;
   right: 640px;
+
 }
 
 .swiper-scrollbar {
@@ -57,10 +58,6 @@
   opacity: 0.7;
 }
 
-
-.slide{
-  z-index: -1;
-}
 
 @media (max-width: 1000px) {
   .swiper__btn-prev {

@@ -58,51 +58,6 @@
   background: var(--mainColor);
 }
 
-.lang-switcher {
-  position: relative;
-
-  display: grid;
-  margin-left: 40px;
-  margin-top: 16px;
-
-}
-
-.selected{
-  display: block;
-}
-
-.item{
-  display: none;
-}
-
-.booking__container_price {
-  width: 120px;
-  height: 100px;
-  
-  font-family: 'DIN', arial, sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 14px;
-
-  color: #333333;
-  background: #E9ECE0;
-}
-
-.container_price--when {
-  margin-left: 29px;
-  margin-top: 25px;
-}
-
-.container_price--value {
-  margin-left: 29px;
-
-  font-weight: 600;
-  font-size: 20px;
-  }
-
-.container_price--time {
-  margin-left: 41px;
-}
 
 .language-active{
   display: block;
