@@ -1,3 +1,5 @@
+.swiper-container{margin: 0 auto;}
+
 .swiper_container-btns {
   position: relative;
   top: 640px;
@@ -51,12 +53,11 @@
 
 .swiper-scrollbar {
   transform: rotate(-90deg);
-}
-
-.scroll-background {
   background: var(--white);
   opacity: 0.7;
+  color: var(--mainBgColor);
 }
+
 
 
 @media (max-width: 1000px) {

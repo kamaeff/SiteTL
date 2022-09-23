@@ -396,3 +396,19 @@
 .info__rightside_booking-btn:hover {
   background: var(--mainColor);
 }
+
+
+@media (max-width: 1000px) {
+
+  .topside__booking{
+    margin-top: 17px;
+  }
+
+  .booking__container-price{
+    height: 80px;
+  }
+  
+  .container-price--when{
+    margin-top: 10px;
+  }
+}

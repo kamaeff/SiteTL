@@ -59,7 +59,9 @@ const swiper = new Swiper(".swiper-container", {
   //Scrollbar
   scrollbar: {
     el: ".swiper-scrollbar",
+
     draggable: true,
+    dragSize: '100px',
   },
 
   mousewheel: true,
