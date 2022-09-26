@@ -79,6 +79,15 @@
     top: 655px;
   }
   
-  
+  .header__booking{
+    margin-right: 100px;
+  }
+
 }
 
+@media (max-width: 768px){
+    .booking__container-btn{
+        font-size: 14px;
+        padding: 21px 50px;
+    }
+}

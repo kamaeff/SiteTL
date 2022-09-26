@@ -69,3 +69,21 @@
   }
   
 }
+
+@media (max-width: 768px){
+  .swiper-container{
+    max-width: 768px;
+  }
+
+  .slide{
+    width: 750px;
+  }
+
+  .swiper__btn-next{
+    left: 450px;
+  }
+
+  .swiper__btn-prev{
+    left: 360px;
+  }
+}

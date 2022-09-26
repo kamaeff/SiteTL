@@ -212,10 +212,21 @@
 
   .header__logo {
     background: none;
+    margin-left: 250px;
   }
 
   .header__mobile-menu {
     display: block;
   }
 
+  .header__booking{
+    margin-left: 140px;
+  }
+
+  .languages{
+    padding-left: 90px;
+  }
+
 }
+
+
