@@ -22,16 +22,6 @@
   margin: 0 auto;
 }
 
-.footer {
-  width: 1408px;
-  height: 477px;
-
-  display: flex;
-  margin-top: 133px;
-
-  background: var(--bgBtnColor);
-}
-
 .visually-hidden {
   position: fixed;
 

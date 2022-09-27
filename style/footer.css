@@ -1,3 +1,13 @@
+.footer{
+  width: 1408px;
+  height: 477px;
+
+  display: flex;
+  margin-top: 133px;
+
+  background: var(--bgBtnColor);
+}
+
 .leftside {
   display: grid;
   margin-top: 100px;
@@ -102,4 +112,43 @@
   margin-left: 221px;
   margin-top: 50px;
   gap: 40px;
+}
+
+@media (max-width: 768px){
+
+  .footer{
+    max-width: 768px;
+    height: 600px;
+
+    display: grid;
+
+    justify-content: center;
+  }
+
+  .rightside,
+  .rightside__banks,
+  .leftside{
+    margin-left: 0;
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .leftside{
+    margin-top: 40px;
+  }
+
+  .leftside__title{
+    font-size: 20px;
+  }
+
+  .leftside__copirate{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .rightside{
+    margin-top: 10px;
+    padding-left: 0;
+  }
 }
