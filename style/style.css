@@ -80,4 +80,8 @@
         font-size: 14px;
         padding: 21px 50px;
     }
+
+    .container-price--when{
+        margin-top: 10px;
+    }
 }
