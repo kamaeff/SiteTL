@@ -14,7 +14,7 @@
   z-index: 3;
 }
 
-.topside_text-title {
+.topside__text-title {
   font-family: "Open Sans Light", arial, sans-serif;
   font-weight: 300;
   font-size: 70px;
@@ -22,7 +22,7 @@
   color: var(--white);
 }
 
-.topside_text-subtitle {
+.topside__text-subtitle {
   width: 400px;
 
   padding-left: 326px;
@@ -35,7 +35,7 @@
   color: var(--white);
 }
 
-.topside__booking {
+.main__topside_booking {
   position: absolute;
   top: 657px;
   left: 145px;
@@ -58,19 +58,19 @@
   background: #E9ECE0;
 }
 
-.container-price--when {
+.booking__container-price--when {
   margin-left: 29px;
   margin-top: 25px;
 }
 
-.container-price--value {
+.booking__container-price--value {
   margin-left: 29px;
 
   font-weight: 600;
   font-size: 20px;
   }
 
-.container-price--time {
+.booking__container-price--time {
   margin-left: 41px;
 }
 
@@ -245,7 +245,7 @@
   scale: 1.1;
 }
 
-.facilities__container-item--name {
+.facilities__container-item-name {
   margin-top: 20px;
 
   font-family: "Open Sans Light", arial, sans-serif;
@@ -424,13 +424,13 @@
     right: 10px;
   }
 
-  .booking__container-price{
+  .main__booking_container-price{
     width: 120px;
     height: 70px;
     font-size: 10px;
   }
 
-  .container-price--when {
+  .booking__container-price--when {
     margin-top: 5px;
   }
 

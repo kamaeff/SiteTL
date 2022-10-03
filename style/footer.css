@@ -8,12 +8,12 @@
   background: var(--bgBtnColor);
 }
 
-.leftside {
+.footer__leftside {
   display: grid;
   margin-top: 100px;
   margin-left: 146px;
 }
-.leftside__title {
+.footer__leftside_title {
   font-family: "Open Sans Regular", arial, sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -23,12 +23,12 @@
   color: var(--white);
 }
 
-.leftside__email_form {
+.footer__leftside_form {
   display: flex;
   align-items: center;
   border-bottom: 1px solid var(--white);
 }
-.leftside__email_form-input {
+.footer__leftside_form--input {
   outline: 0 !important;
 
   padding-right: 202px;
@@ -37,21 +37,15 @@
   font-style: italic;
   font-weight: 300;
   font-size: 16px;
-
-  background: var(--bgBtnColor);
-  box-shadow: none;
-  border: 1px solid var(--bgBtnColor);
-  color: var(--white);
-  transition-duration: 1s;
 }
 
-.leftside__email_form-btn {
+.footer__leftside_form--btn{
   cursor: pointer;
   border: 1px solid var(--bgBtnColor);
   background-color: var(--bgBtnColor);
 }
 
-.leftside__text {
+.footer__leftside_text {
   width: 418px;
 
   margin-top: 30px;
@@ -66,7 +60,7 @@
 
   opacity: 0.7;
 }
-.leftside__copirate {
+.footer__leftside_copirating {
   margin-top: 70px;
 
   font-family: "Open Sans Light", arial, sans-serif;
@@ -80,19 +74,19 @@
   opacity: 0.7;
 }
 
-.rightside {
+.footer__rightside {
   margin-top: 100px;
   margin-left: 207px;
 }
 
-.rightside__links_nav {
+.footer__rightside_nav{
   display: flex;
   gap: 33px;
   
   list-style: none;
 }
 
-.rightside__links_nav-item {
+.footer__rightside_nav a{
   font-family: "DIN", arial, sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -106,7 +100,11 @@
   color: var(--white);
 }
 
-.rightside__banks {
+.footer__rightside_nav li:hover{
+  transform: scale(1.2);
+}
+
+.footer__rightside_banks {
   display: flex;
   align-items: center;
   margin-left: 221px;
@@ -125,29 +123,29 @@
     justify-content: center;
   }
 
-  .rightside,
-  .rightside__banks,
+  .footer__rightside,
+  .footer__rightside_banks,
   .leftside{
     margin-left: 0;
     margin-left: 0;
     justify-content: center;
   }
 
-  .leftside{
+  .footer__leftside{
     margin-top: 40px;
   }
 
-  .leftside__title{
+  .footer__leftside_title{
     font-size: 20px;
   }
 
-  .leftside__copirate{
+  .footer__leftside_copirating{
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .rightside{
+  .footer__rightside{
     margin-top: 10px;
     padding-left: 0;
   }

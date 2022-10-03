@@ -30,6 +30,14 @@
   transform: scale(0);
 }
 
+.input{
+  background: var(--bgBtnColor);
+  box-shadow: none;
+  border: 1px solid var(--bgBtnColor);
+  color: var(--white);
+  transition-duration: 1s;
+}
+
 /*Кнопка бронирования*/
 .booking__container-btn{
   padding: 36px 95px;
